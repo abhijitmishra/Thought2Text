@@ -65,4 +65,9 @@ We evaluate the model's generations through popular NLG metrics such as BLEU, ME
 ## Ethics Statement:
 For this work, we utilized anonymized open-source EEG data, acknowledging the sensitivity of EEG data and the imperative of ethical compliance. All experimental data used in our research were anonymized to protect participant privacy and uphold ethical standards.
 
+## Acknowledgement:
+The EEG Encoder portion of our approach is based on the following paper and the Channelnet encoder code and EEG data is based on [this repository](https://github.com/perceivelab/eeg_visual_classification). We sincerely thank tha authors for their novel contribution which has made this work possible. 
+
+- S. Palazzo, C. Spampinato, I. Kavasidis, D. Giordano, J. Schmidt, M. Shah, Decoding Brain Representations by Multimodal Learning of Neural Activity and Visual Features, IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, 2020, doi: 10.1109/TPAMI.2020.2995909
+
 For any questions or concerns, contact [Abhijit](mailto:abhijitmishra.530@gmail.com) or [Shreya](mailto:shreya.shukla@utexas.edu). Pull requests and GitHub issues may not be entertained in time.  
