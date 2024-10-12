@@ -7,12 +7,12 @@ Paper Link: https://arxiv.org/pdf/2410.07507v1
 ## Approach
 Thought2Text implements a three stage training approach to fine tune LLMs and make them Visual EEG aware. A sneak peak can be had by looking at the following diagram (and for detailed explanation refer to Section 4 of the paper). 
 
-![diagram](./diagrams/method_thought_text.png)
+![diagram](https://github.com/abhijitmishra/Thought2Text/blob/main/diagrams/method_thought_text.jpg)
+    
 
 ## Sample outputs from Mistral-v0.3-Instruct
 
-
-![samples](./diagrams/example.png)
+![samples](https://github.com/abhijitmishra/Thought2Text/blob/main/diagrams/examples.png)
 
 
 ## Data and Stage1 Pretrained Model: 
