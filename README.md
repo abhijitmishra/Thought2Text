@@ -61,3 +61,8 @@ python inference.py \
 
 ## Evaluation:
 We evaluate the model's generations through popular NLG metrics such as BLEU, METEOR and ROUGE. We also measure fluency and adequacy through GPT-4. The IPYNB notebooks can be found inside the `eval` folder. 
+
+## Ethics Statement:
+For this work, we utilized anonymized open-source EEG data, acknowledging the sensitivity of EEG data and the imperative of ethical compliance. All experimental data used in our research were anonymized to protect participant privacy and uphold ethical standards.
+
+For any questions or concerns, contact [Abhijit](mailto:abhijitmishra.530@gmail.com) or [Shreya](mailto:shreya.shukla@utexas.edu). Pull requests and GitHub issues may not be entertained in time.  
