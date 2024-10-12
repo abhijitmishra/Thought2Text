@@ -1,0 +1,12 @@
+bitsandbytes
+transformers
+peft
+accelerate
+trl
+pandas
+Pillow
+wandb
+sentencepiece
+evaluate
+tensorboardX
+torch==2.4.1
