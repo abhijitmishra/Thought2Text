@@ -70,4 +70,4 @@ The EEG Encoder portion of our approach is based on the following paper and the 
 
 - S. Palazzo, C. Spampinato, I. Kavasidis, D. Giordano, J. Schmidt, M. Shah, Decoding Brain Representations by Multimodal Learning of Neural Activity and Visual Features, IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, 2020, doi: 10.1109/TPAMI.2020.2995909
 
-For any questions or concerns, contact [Abhijit](mailto:abhijitmishra.530@gmail.com) or [Shreya](mailto:shreya.shukla@utexas.edu). Pull requests and GitHub issues may not be entertained in time.  
+For any questions or concerns, contact [Abhijit](mailto:abhijitmishra.530@gmail.com) or [Shreya](mailto:shreya.shukla@utexas.edu). Pull requests and GitHub issues may not be entertained in time. If you use our work, please cite it.  
