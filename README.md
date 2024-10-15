@@ -16,7 +16,9 @@ Thought2Text implements a three stage training approach to fine tune LLMs and ma
 
 
 ## Data and Stage1 Pretrained Model: 
-Download the data from [here](https://drive.google.com/drive/folders/1XqV6MMl28iYXkQBMEFHfEXllGmCbqpOu?usp=sharing) and place it inside a newly created `data` directory. Install all dependencies through `pip install -r requirements.txt`
+Download the data from [here](https://drive.google.com/drive/folders/1XqV6MMl28iYXkQBMEFHfEXllGmCbqpOu?usp=sharing) and place it inside a newly created `data` directory. **Note:** We do not hold copytight on the data, except the text descriptions, the data is shared only for reproducibility and only for academic research. If you have any questions about he original data, please contact the original authors (CITATION BELOW). 
+
+Once you have downloaded the data, install all dependencies through `pip install -r requirements.txt`
 
 ## Training 
 
