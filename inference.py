@@ -153,6 +153,7 @@ def main():
             input_ids1=batched_input_ids1,
             input_ids2=batched_input_ids2,
             mm_embeds=emb_out,
+            do_sample = False,
             max_new_tokens=max_len,
             repetition_penalty=1.1
         )
