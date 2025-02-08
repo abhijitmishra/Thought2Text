@@ -65,8 +65,10 @@ python inference.py \
 We evaluate the model's generations through popular NLG metrics such as BLEU, METEOR and ROUGE. We also measure fluency and adequacy through GPT-4. The IPYNB notebooks can be found inside the `eval` folder. 
 
 ## Ethics Statement:
-For this work, we utilized anonymized open-source EEG data, acknowledging the sensitivity of EEG data and the imperative of ethical compliance. All experimental data used in our research were anonymized to protect participant privacy and uphold ethical standards.
+For this work, we utilized anonymized open-source EEG data, acknowledging the sensitivity of EEG data and the imperative of ethical compliance. All experimental data used in our research were anonymized to protect participant privacy and uphold ethical standards. Also, it is worth noting that all experiments have been carried out with NVIDIA TRX 4060ti (16GB VRAM) graphics card with `torch==2.0.1+cu117`, and any change in the configuration may change the results significantly. Moreover, LLM implementations running on GPUs exhibit inherent non-determinism, leading to slight deviations in results across separate runs. We have attempted to mitigate this by setting seeds, but due to the stochastic nature of GPU-based computations (e.g., floating-point arithmetic differences, CUDA optimizations, and parallelism in cuDNN/cuBLAS), exact reproducibility remains challenging. Given resource constraints, we could not conduct an exhaustive number of experiments to quantify this variability, but we hope this work proves valuable in bridging Generative AI and EEG technologies.
 
+## Special Notes:
+The scripts `*chance.*` and `*chance2.*` represent ONLY_OBJ and ONLY_EEG settings in the paper. 
 ## Acknowledgement:
 The EEG Encoder portion of our approach is based on the following paper and the Channelnet encoder code and EEG data is based on [this repository](https://github.com/perceivelab/eeg_visual_classification). We sincerely thank tha authors for their novel contribution which has made this work possible. 
 

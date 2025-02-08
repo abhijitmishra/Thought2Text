@@ -1,3 +1,4 @@
+export CUDA_VISIBLE_DEVICES=0
 echo "Running all fine-tuning"
 bash run_all_fine_tuning.sh $1
 
@@ -17,4 +18,4 @@ echo "Running inference chance 2"
 bash run_inference_chance2.sh $1
 
 echo "Running inference without object"
-bash run_inference_chance2.sh $1
+bash run_inference_only_eeg.sh $1
